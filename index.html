@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Swam Htet Lin's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Aspiring Data Analyst in I.T</p>
+            <h1>Hi, I am Swam Htet Lin<br>From Myanmar<br>Living in Singapore</h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"></div>
+                <img src="pfpold.jpeg">
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>
+                    I am Swam Htet Lin, 
+                    a Singapore Permanent Resident
+                    who graduated from Nanyang Polytechnic in 2022
+                    in Cybersecurity and Digital Forensics.<br>
+                     I am a self-motivator with a positive 
+                     attitude and with high energy. <br>
+                     I am also a team player with strong 
+                     communication and interpersonal 
+                     skills with strong problem-solving 
+                     skills and ability to think out of
+                    the box. <br>
+                    My interests lie in video editing, nerf,
+                    sometimes gaming and doing projects.
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id='skills'>
+                        <ul>
+                            <li><span>Python</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>SQL/MySQL</span></li>
+                            <li><span>Microsoft Office Tools</span></li>
+                            <li><span>Communication</span></li>
+                            <li><span>UX Design</span></li>
+                            <li><span>Project Management</span></li>
+                            <li><span>Creativity</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id='experience'>
+                            <ul>
+                                <li><span>04/2022-11/2022<br>CACIB<br>Junior Java Developer/Analyst</span></li>
+                                <li><span>09/2021-11/2021<br>Micro2000<br>SSOE and +Serv(W11, Orchard) Intern</span></li>
+                                <li><span>03/2019-03/2019<br>KFC<br>Cashier</span></li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id='education'>
+                            <ul>
+                                <li>Nanyang Polytechnic<br>Diploma in Cybersecurity and Digital Forensics</span></li>
+                                <li>Kranji Secondary School<br>Triple Science Student</span></li>
+                                <li>Unity Primary School<br>Class of 6B</span></li>
+                            </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1>My Portfolio Works</h1>
+        <div class="work">
+            <img src="">
+            <div>
+                <h2>My First(Python) Project</h2>
+                
+                <p>Source Code Link:https://github.com/Swamh/My-Python-Projects/blob/master/MyFirstProject.py</p>
+                <p>In this project, I practiced the very basics of Python to create get user input<br>
+                and calculate variables in the code itself</p>
+                <h2>Python Bot Chat</h2>
+                <p>Source Code Link:https://github.com/Swamh/My-Python-Projects/blob/master/PythonBotChat.py</p>
+                <p>In this project, I practiced the basics of Python to create get user input
+                of a chatbot, where it asks for user input, utilzing a while loop, an if else statement<br>
+                and call the functions after defining them</p>
+                <h2>Zoo</h2>
+                <img src="Zoo.jpg">
+                <p>Source Code Link:https://github.com/Swamh/My-Python-Projects/blob/master/Zoo.py</p>
+                <p>In this project, I practiced the very basics of Python to create get user input
+                of a chatbot on which animal in the zoo they want to see and then print out the animals using
+                computer symbols</p>
+                <h2>Loan Calculator(Work in Progress)</h2>
+                <img src="Calculator.jpeg">
+                <p>Source Code Link:https://github.com/Swamh/My-Python-Projects/blob/master/2outof4.py</p>
+                <p>In this project, I practiced the basics of Python, to get user input, calculate
+                    variables and then printing them out to make a Loan Calculator, like in the banks.
+                </p>
+                <h2>Bester Restaurant Desktop</h2>
+                <img src="BRPC.png">
+                <p>Source Code Link:https://github.com/Swamh/UXDesign/blob/main/BesterRestaurantDesktop.html</p>
+                <p>In this project, I practiced my UX Design Skills to make a website to 
+                    consolidate orders from the restaurant menu
+                </p>
+                <h2>Bester Restaurant Mobile</h2>
+                <img src="BRM.png">
+                <p>Source Code Link:https://github.com/Swamh/UXDesign/blob/main/BesterRestaurantMobile.html</p>
+                <p>In this project, I practiced my UX Design Skills to make a website to 
+                    consolidate orders from the restaurant menu for mobile users
+                </p>
+                <h2>Bester Career Coaching</h2>
+                <img src="BCC.png">
+                <p>Source Code Link:https://github.com/Swamh/UXDesign/blob/main/BesterCareerCoaching.html</p>
+                <p>In this project, I practiced my UX Design Skills to make a website to 
+                  to provide career coaching and advice to people seeking employment,
+                  for both PC, Tablet and Mobile users
+                </p>
+            </div>
+    </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <h1>Contact Me Here!</h1>
+        <div class="work">
+            <img src="">
+            <div>
+                <p>Please feel free to contact me here for work related matters or questions!</p><br>
+                <p>Email Address:swamhtetlin4work@gmail.com</p><br>
+                <p>Linkedin Profile:https://www.linkedin.com/in/swam-htet-lin-120b321a7/</p><br>
+                <p>Github Profile: https://github.com/Swamh</p>
+            </div>
+    </div>
+    </div>
+</div>
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
